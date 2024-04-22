@@ -1,2 +1,23 @@
 @charset "UTF-8";
+
 /* 回答はここから */
+.card-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.card {
+  width: 200px;
+  margin-right: 60px;
+  padding: 10px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  background: #d2b48c;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
