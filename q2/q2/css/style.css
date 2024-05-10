@@ -3,12 +3,11 @@
 /* 回答はここから */
 .card-list {
   display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  justify-content: center;
 }
 
 .card {
+  list-style: none;
   width: 200px;
   margin-right: 60px;
   padding: 10px;
